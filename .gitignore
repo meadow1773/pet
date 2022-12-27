@@ -1,8 +1,11 @@
+.env
 style.min.css
 responsiveslides.min.js
 egressos.php
 atuais.php
 colab.php
-/atuais
-/colab
-/slider
+/.vscode
+/resources/img/atuais
+/resources/img/colab
+/resources/img/slider
+/vendor
