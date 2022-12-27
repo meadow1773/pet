@@ -41,7 +41,8 @@
     <label for="control-nav" class="control-nav-close"></label>
     <nav id="menu">
         <ul>
-            <li><a href="sobre">Sobre o PET</a>
+            <li>
+                <a href="sobre">Sobre o PET</a>
                 <ul class="sub-menu">
                     <li><a href="integrantes">Integrantes</a></li>
                     <li><a href="colaboradores">Colaboradores</a></li>
@@ -49,7 +50,7 @@
                 </ul>
             </li>
             <li><a href="galeria">Galeria</a></li>
-            <li><a href="espacoCultural">Espa&ccedil;o Cultural</a></li>
+            <li><a href="espaco_cultural">Espa&ccedil;o Cultural</a></li>
             <li><a href="roteiros">Roteiros Geogr&aacute;ficos</a></li>
             <li><a href="oficinas">Oficinas Pedag&oacute;gicas</a></li>
             <li><a href="contato">Fale conosco</a></li>

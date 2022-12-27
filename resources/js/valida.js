@@ -32,7 +32,7 @@ $('form#contato').submit(function (event) {
 	else {
 		$.ajax({
 			type: 'POST',
-			url: 'mail_send.php',
+			url: '/src/mailSend.php',
 			dataType: 'html',
 			data: {
 				nome: $('input[name=nome]').val(),

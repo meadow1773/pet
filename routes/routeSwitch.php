@@ -28,7 +28,7 @@ abstract class RouteSwitch
     {
         require 'public/pages/galeria.php';
     }
-    protected function espacoCultural()
+    protected function espaco_cultural()
     {
         require 'public/pages/espaco-cultural.php';
     }
