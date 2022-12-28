@@ -2,7 +2,7 @@
 
 $captchaData = isset($_POST['gRecaptchaResponse']) ? $_POST['gRecaptchaResponse'] : false;
 $jsonResp = file_get_contents(
-    'https://www.google.com/recaptcha/api/siteverify?secret=' . getenv('CAPTCHA_KEY') .
+    'https://www.google.com/recaptcha/api/siteverify?secret=' . $_ENV['CAPTCHA_KEY'] .
     '&response=' . $captchaData .
     '&remoteip=' . $_SERVER['REMOTE_ADDR']
 );
@@ -23,7 +23,7 @@ $remetente = $_POST['email'];
 $mensagem = $_POST['mensagem'];
 $assunto = 'Formulário: PET - ' . $_POST['assunto'];
 
-$para = getenv('EMAIL');
+$para = $_ENV['EMAIL'];
 $corpo = "
 <html>
     <body>
