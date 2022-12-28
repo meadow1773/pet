@@ -5,6 +5,7 @@ egressos.php
 atuais.php
 colab.php
 /.vscode
+/tests
 /resources/img/atuais
 /resources/img/colab
 /resources/img/slider

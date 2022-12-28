@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" />
-    <meta name="description" content="O PET de Geografia da Universidade Estadual de Londrina foi criado em 1994. O objetivo principal do programa &eacute; promover a forma&ccedil;&atilde;o ampla e de qualidade acad&egrave;mica dos alunos de gradua&ccedil;&atilde;o envolvidos direta ou indiretamente com o programa, estimulando a fixa&ccedil;&atilde;o de valores que reforcem a cidadania e a consci&egrave;ncia social de todos os participantes e a melhorias dos cursos de gradua&ccedil;&atilde;o.">
+    <meta name="description" content="O PET de Geografia da Universidade Estadual de Londrina foi criado em 1994. O objetivo principal do programa é promover a formação ampla e de qualidade acadêmica dos alunos de graduação envolvidos direta ou indiretamente com o programa, estimulando a fixação de valores que reforcem a cidadania e a consciência social de todos os participantes e a melhorias dos cursos de graduação.">
     <title>
     <?php
     if ($title) {
@@ -50,9 +50,9 @@
                 </ul>
             </li>
             <li><a href="galeria">Galeria</a></li>
-            <li><a href="espaco_cultural">Espa&ccedil;o Cultural</a></li>
-            <li><a href="roteiros">Roteiros Geogr&aacute;ficos</a></li>
-            <li><a href="oficinas">Oficinas Pedag&oacute;gicas</a></li>
+            <li><a href="espaco_cultural">Espaço Cultural</a></li>
+            <li><a href="roteiros">Roteiros Geográficos</a></li>
+            <li><a href="oficinas">Oficinas Pedagógicas</a></li>
             <li><a href="contato">Fale conosco</a></li>
         </ul>
     </nav>

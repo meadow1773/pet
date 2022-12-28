@@ -47,6 +47,6 @@ abstract class RouteSwitch
     public function __call($name, $arguments)
     {
         http_response_code(404);
-        require 'public/not-found.php';
+        require 'public/404.php';
     }
 }
