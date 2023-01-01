@@ -2,10 +2,11 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
-$dotEnv = Dotenv\Dotenv::createImmutable(__DIR__);
-$dotEnv->load();
-
 use Routes\Route;
+use Dotenv\Dotenv;
+
+$dotEnv = Dotenv::createImmutable(__DIR__);
+$dotEnv->load();
 
 $requestUri = $_SERVER['REQUEST_URI'];
 

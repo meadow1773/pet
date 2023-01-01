@@ -1,4 +1,5 @@
 .env
+composer.lock
 style.min.css
 responsiveslides.min.js
 egressos.php
