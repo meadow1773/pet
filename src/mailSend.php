@@ -1,5 +1,7 @@
 <?php
 
+require '../global.php';
+
 $captchaData = isset($_POST['gRecaptchaResponse']) ? $_POST['gRecaptchaResponse'] : false;
 $jsonResp = file_get_contents(
     'https://www.google.com/recaptcha/api/siteverify?secret=' . $_ENV['CAPTCHA_KEY'] .
